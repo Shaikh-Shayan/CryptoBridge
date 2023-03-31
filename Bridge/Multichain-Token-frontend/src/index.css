@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.blue-glassmorphism {
+  background: rgba(255, 255, 255, 0.801);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.roadmap-heading {
+ margin-left: 20px;
+ margin-top: auto;
+  
+}
+.roadmap-box-content li{
+  padding: .3rem;
+}
+.glassmorphism {
+  background: rgba(238, 237, 237, 0.616);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  
+}
+.g1
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5rem;
+}
+
+.side-nav-li {
+  width: 100%;
+  height: 8%;
+  border-bottom: #48474ba4 1px solid;
+}
+.box-shadow-down {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.icon-hover:hover{
+  color: rgb(42, 44, 71)
+}
+body {
+  background: rgb(255, 255, 255);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Home{
+  top: 10vh;
+  height: 90vh;
+}
+.about{
+
+  height: auto;
+  width: 90vw;
+  
+}  
+.g2{
+  font-size: 6rem;
+  font-weight: bolder;
+}
+.tag:active {
+  color: rgb(255, 0, 234);
+}
+
+.about-container{
+  margin-top: auto;
+  padding: 3rem;
+  margin-top: 5%;
+}
+.land-of-realm{
+  height: auto;
+  width: 90vw;
+}
+.land-container{
+  padding: 3rem;
+  margin-top: 5%;
+}
+.right-content-about img{
+  transform: rotate(20deg);
+  padding: 1rem;
+
+}
+.right-content-land{
+  transform: rotate(20deg);
+  padding: 1rem;
+
+}
+.nav{
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 100;
+}
+.roadmap{
+  margin:0;
+  height: auto;
+  width: 100vw;
+  background: url("images/roadMap.mp4") center center no-repeat ;
+}
+.home-overlay{
+  width: 100%;
+  height: 20%;
+  background-color: rgba(44, 40, 40, 0.822)
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #000
+}
+
+
+@media (min-width:420px) {
+  .right-content-about img{
+    transform: rotate(0deg);
+    margin-left: 3rem;
+    width: 60%;
+  }
+  left-content{
+    padding: 50%
+  }
+  
+}
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #06D85F;
+  margin: 80px 0;
+}
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+@media screen and (max-width: 420px){
+  .g2{
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
